@@ -7,7 +7,11 @@ It is okay if your iterator behaves strangely when the group is modified during 
 */
 
 // Your code here (and the code from the previous exercise)
-
+class Group{
+  constructor(){
+    this.group=[]
+  }
+}
 
 // Tests:
 for (let value of Group.from(["a", "b", "c"])) {
